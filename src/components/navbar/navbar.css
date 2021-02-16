@@ -1,0 +1,26 @@
+#navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  position: absolute;
+  z-index: 2000;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70vw;
+  color: #fff;
+  margin: 0 auto;
+  font-family: "montserrat", sans-serif;
+}
+#navBar a {
+  color: #fff;
+  text-decoration: none;
+}
+#navBar div {
+  display: flex;
+  justify-content: space-evenly;
+  width: 20vw;
+}
+#navBar p {
+  margin: 0;
+}

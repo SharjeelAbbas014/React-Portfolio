@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap");
+#hero-back {
+  height: 130vh;
+  position: relative;
+  width: 100vw;
+  background-image: linear-gradient(to top right, #450b7c, #563cc9, #49e9fb);
+}
+
+#topPart {
+  position: absolute;
+  z-index: 200;
+  width: 100vw;
+  height: 100vh;
+}
+#hero-back img {
+  width: 220px;
+  position: absolute;
+  right: 15%;
+  top: 10%;
+}
+#navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  width: 70vw;
+  color: #fff;
+  margin: 0 auto;
+  font-family: "montserrat", sans-serif;
+}
+#navBar a {
+  color: #fff;
+  text-decoration: none;
+}
+#navBar div {
+  display: flex;
+  justify-content: space-evenly;
+  width: 20vw;
+}
+#navBar p {
+  margin: 0;
+}
+#content {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#content h2 {
+  color: #fff;
+  font-size: 18px;
+  font-family: "montserrat", sans-serif;
+  margin: 10px;
+  font-weight: 400;
+}
+#content button {
+  width: 40%;
+  display: block;
+  border: none;
+  padding: 20px 20px;
+  border-radius: 200px;
+  cursor: pointer;
+  margin: 0 auto;
+  background: #fff;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #7461d4;
+  transition: all 0.2s ease-in;
+}
+#content button:hover {
+  box-shadow: 2px 10px 30px #450b7c7c;
+}
+h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 80px;
+  margin: 0;
+  font-family: "Playfair Display", serif;
+}
+#cut-out {
+  background-image: url("../../imgs/hero-guy-1.png");
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  height: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+#tech-back {
+  background: linear-gradient(to top, #fff, #f6f8fc, #fff);
+}
+h2 {
+  text-align: center;
+  color: #232323;
+  font-size: 50px;
+  margin: 30px 0 0 0;
+  font-family: "Playfair Display", serif;
+}
+p {
+  font-family: "Lora", serif;
+  text-align: center;
+  font-size: 20px;
+}
+hr {
+  width: 50px;
+  padding: 1px;
+  background-color: tomato;
+  border: none;
+}
+#outer-tech {
+  padding: 50px 0px;
+  display: flex;
+  height: max-content;
+  width: max-content;
+  margin: 0 auto;
+}
+.one-tech-line {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#button3Proj {
+  background: linear-gradient(135deg, #8254e5, #83afe3 150%);
+}
+#button2Proj {
+  background: linear-gradient(to top right, #e49c00, #ffe607);
+}
+.proj-img img {
+  position: absolute;
+  top: 50%;
+  width: 60%;
+  height: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#gottaGo {
+  background: linear-gradient(to top right, #e49c00, #ffe607);
+}
+#gottaGo img {
+  width: 70%;
+  height: 70%;
+}
+#travelAgency {
+  background: linear-gradient(135deg, #8254e5, #83afe3 150%);
+}
+#travelAgency img {
+  width: 80%;
+  height: 80%;
+}
+
+#showmoreproj {
+  margin: 60px auto 100px auto;
+  text-align: center;
+  color: #563cc9;
+  text-decoration: none;
+  display: block;
+  border-radius: 200px;
+  background: rgb(255, 255, 255);
+  width: 200px;
+  font-weight: 700;
+  padding: 15px;
+  box-shadow: 0 10px 20px #563cc962;
+}

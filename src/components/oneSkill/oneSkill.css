@@ -1,0 +1,16 @@
+.one-tech {
+  width: 200px;
+  height: 120px;
+  margin: 10px;
+  box-shadow: 2px 2px 20px #e2e2e2;
+  border-radius: 15px;
+  position: relative;
+  background: #fff;
+}
+.one-tech img {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

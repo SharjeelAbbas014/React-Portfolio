@@ -1,0 +1,28 @@
+#slider {
+  display: block;
+  width: 50%;
+  background-color: teal;
+}
+#slider div {
+  display: block;
+}
+
+#projdetails {
+  width: 80%;
+  margin: 0 auto;
+}
+#projdetails p {
+  font-size: 14px;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+}
+#projimg {
+  width: 80%;
+  margin: 0 auto;
+}
+#projimg img {
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 10px 30px #23232375;
+  border-radius: 10px;
+}
